@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla Car</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+            <img id="img-header" src="./asset/pngwing.com.png" alt="tesla logo" />
+            <ul>
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="#feature">Features</a></li>
+                <li><a class="nav-link" href="#price">Price</a></li>
+            </ul>
+        </nav>
+        <div class="text-banner">
+            DISCOVER <br /> THE FUTURE
+        </div>
+        <div class="img-banner">
+            <img src="./asset/tesla.png" alt="tesla car" width="100" />
+        </div>
+        <a class="nav-link" href="#feature">
+            <div class="button">Learn More</div>
+        </a>
+    </header>
+    <section id="feature">
+        <h2>Features</h2>
+        <h3>Autopilot</h3>
+        <iframe id="video" width="960" height="560" src="https://www.youtube.com/embed/hif8pe80Xxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Autopark</h3>
+        <iframe width="960" height="565" src="https://www.youtube.com/embed/KeQm0L5UicM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h3>Smart Summon</h3>
+        <iframe width="960" height="565" src="https://www.youtube.com/embed/nlCQG2rg4sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="price">
+        <h2 class="judul-price">Price</h2>
+        <div class="price">
+            <img class="img-price" src="./asset/Daco_2167812.png" />
+            <div class="price-tag">
+                <h3>Model S</h3>
+                <p>$72,950</p>
+            </div>
+    </section>
+    <section id="emailSec">
+        <h3>For More Information</h3>
+        <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required>
+            <input id="submit" type="submit" value="Submit">
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
